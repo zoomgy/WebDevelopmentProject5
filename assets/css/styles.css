@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section1 Css */
+.section1{
+    position: relative;
+    height: 100vh;
+    padding : 5rem;
+    /* background-image: url('./assets/images/road.jpg'); */
+    /* background-image: aqua; */
+    background-image: url("https://github.com/zoomgy/images/blob/main/scenery1.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.square{
+    border : 15px solid hsl(0, 0%, 15%);
+    width : 45%;
+    z-index: 2;
+    height: 90%;
+    margin-left: 5%;
+}
+.heading1{
+    position: absolute;
+    top : 35%;
+    left : 14%;
+}
+.ayushthakur{
+    font-family: 'Prata', serif;
+    text-align: center;
+    z-index: 1;
+    font-size: 9.5vw;
+    width: 100%;
+}
+.programmer{
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 5vw;
+}
+
+
+@media (max-width : 1000px){
+    .section1{
+        padding: 0.5rem;
+    }
+    .square{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .ayushthakur{
+        color: white;
+    }
+    .programmer{
+        text-align: center;
+    }
+    .heading1{
+        top: 35%;
+        left:10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section2 Css */
+.section2{
+    position: relative;
+    height: 100vh;
+    padding : 5rem;
+    background-image: url("https://github.com/zoomgy/images/blob/main/scenery2.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+}
+.circle > h2 {
+    color: hsl(0, 3%, 25%);
+}
+
+.circle{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid hwb(0 18% 82%);
+}
+.circle > img{
+    width: 15vw;
+    border-radius: 50%;
+}
+.section2 > p {
+    width: 50%;
+    padding: 3rem;
+    padding-left: 0;
+    text-align: left;
+    line-height: 4rem;
+    font-size: 5vw;
+    color:#ffffff;
+}
+
+@media (max-width : 1000px){
+    .section2{
+        flex-direction: column;
+        padding: 0.5rem;
+        gap: 2rem;
+    }
+    .circle{
+        width: 90%;
+        margin-left: 5%;
+        height : 80vh;
+        order: -1;
+        padding-bottom: 5rem;
+    }
+    .section2 > p {
+        width: 80%;
+        margin-left: 10%;
+        height: 80vh;
+        line-height: 2rem;
+        padding: 0rem;
+        text-align: center;
+    }
+    .circle > h2 {
+        color: black;
+    }
+    .circle > img{
+        width: 30vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section3 */
+
+.section3{
+    position: relative;
+    height: 100vh;
+    padding : 5rem;
+    background-image: url("https://github.com/zoomgy/images/blob/main/scenery3.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle {
+    width: 80%;
+    margin-left: 20%;
+    border : 15px solid hwb(0 18% 82%);
+    padding : 2rem;
+}
+.rectangle > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width : 1000px){
+    .section3{
+        padding: 0.5rem;;
+    }
+    .rectangle{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rectangle > h2 {
+        font-size: 7vw;
+    }
+    .rectangle > ul {
+        font-size: 4dvw;
+        text-align: center;
+    }
+}
